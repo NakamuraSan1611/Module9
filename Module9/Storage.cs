@@ -8,11 +8,11 @@ namespace Module9
 {
     public abstract class Storage
     {
-        protected int file = 780;
+        protected int file1 = 780;
         private string name;
         private string model;
         public abstract double getCapacity();
-        public abstract double copyData();
+        public abstract double copyData(double file);
         public abstract double getEmptySpace();
         public abstract void getInfo();
     }
